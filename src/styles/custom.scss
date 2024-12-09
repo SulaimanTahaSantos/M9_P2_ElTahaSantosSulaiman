@@ -1,0 +1,667 @@
+@media (max-width: 600px) {
+  .hero-title {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 37px;
+  }
+
+  .primerLoremMovil {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+  }
+  .titulo2movil {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 53px;
+    color: black;
+  }
+  .parrafo3movil {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+  }
+  .imagenExtra1 {
+    display: none;
+  }
+  .textsm1 {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .parrafo4movil {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+  }
+  .parrafoimgflor {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #285e67;
+  }
+  .titulo5movil {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: black;
+    position: relative;
+    bottom: 50px;
+  }
+  .imagenpinyalg {
+    display: none;
+  }
+
+  .parrafo6movil {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+    position: relative;
+    bottom: 100px;
+  }
+  .iconohojagranate {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    position: relative;
+    bottom: 125px;
+  }
+
+  .fondo {
+    background-image: url("../../public/fondo.png");
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .titulo7movil {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 31px;
+  }
+  .parrafoPc {
+    display: none;
+  }
+  .iconultimomovil {
+    width: 46px;
+    height: 41px;
+  }
+
+  .text-overlay {
+    color: white;
+    z-index: 10;
+  }
+  button {
+    margin-top: 20px;
+    z-index: 10;
+  }
+  .fondo2 {
+    background-color: #fce2d7;
+    position: absolute;
+    top: 4100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+  }
+
+  .fondo2 img:last-child {
+    margin-bottom: 30px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: white;
+    margin-left: -100px;
+  }
+
+  .logo-icon {
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    border-radius: 50%;
+  }
+  /* Base footer styles */
+  .footer {
+    background-color: #2f4f4f;
+    color: white;
+    padding: 2rem 1rem;
+    margin-top: 600px;
+  }
+
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  /* Mobile styles */
+  @media (max-width: 768px) {
+    .footer-top {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      width: 100%;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: white;
+      text-decoration: none;
+      margin-bottom: 1rem;
+    }
+
+    .footer-nav {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      text-align: center;
+      width: 80%;
+    }
+
+    .nav-link {
+      color: white;
+      text-decoration: none;
+      padding: 0.5rem;
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 1.5rem;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+
+    .social-link {
+      color: white;
+      text-decoration: none;
+      font-size: 1.25rem;
+    }
+
+    .social-link:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero-title {
+    font-family: "Poppins";
+    font-weight: 600;
+    line-height: 82px;
+    font-size: 65px;
+  }
+  .primerLoremIpad {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+  }
+  .buttonJoinIpad {
+    margin-bottom: -50px;
+    position: relative;
+    bottom: 50px;
+  }
+  .titulo2Ipad {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 62px;
+  }
+  .imagenExtra1 {
+    display: none;
+  }
+  .parrafo3Ipad {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+  }
+  .textmd1 {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 50px;
+    color: black;
+  }
+  .parrafo4Ipad {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+  }
+
+  .espacioIpad {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .imagenpinyalg {
+    display: none;
+  }
+  .titulo5Ipad {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 62px;
+  }
+  .parrafo6Ipad {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+  }
+  .titulo7Ipad {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 62px;
+  }
+  .parrafoIpad {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+  }
+
+  .fondo {
+    background-image: url("../../public/fondo.png");
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .text-overlay {
+    color: white;
+    z-index: 10;
+  }
+  button {
+    margin-top: 20px;
+    z-index: 10;
+  }
+  .fondo2 {
+    background-color: #fce2d7;
+    position: absolute;
+    top: 2950px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+  }
+  .fondo2 .espacioIpadFondo2 {
+    margin-bottom: 50px;
+  }
+
+  .footer {
+    background-color: #2f4f4f;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 400px;
+  }
+  .footer {
+    background-color: #2f5a5c;
+    padding: 2rem 0;
+    width: 100%;
+  }
+
+  .container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+  }
+
+  .logo-icon {
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+
+  .logo-text {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+
+  .footer-nav {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: opacity 0.2s;
+  }
+
+  .nav-link:hover {
+    opacity: 0.8;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5rem;
+  }
+
+  .social-link {
+    color: #fff;
+    font-size: 1.25rem;
+    text-decoration: none;
+    transition: opacity 0.2s;
+  }
+
+  .social-link:hover {
+    opacity: 0.8;
+  }
+
+  .container {
+    max-width: 768px;
+  }
+
+  .footer-nav {
+    gap: 1.5rem;
+  }
+
+  .social-icons {
+    padding-left: 0.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-title {
+    font-weight: 500;
+    line-height: 82px;
+    font-size: 58px;
+    font-family: "Poppins";
+  }
+  .primerLoremPc {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+  }
+
+  .imagenlg1 {
+    width: 623px;
+    height: 578px;
+    border-radius: 16px;
+  }
+  .textlgimagen2 {
+    text-align: justify !important;
+  }
+  .textlg1 {
+    margin-bottom: 20px;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 62px;
+  }
+  .parrafo4pc {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+  }
+  .parrafoimgflor {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+  }
+  .iconoflorlg {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .imagenpinyalg {
+    margin-left: 50px;
+    position: relative;
+    bottom: 150px;
+  }
+  .iconohojagranate {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 200px;
+  }
+  .contenedornaranja {
+    margin-top: 70px;
+    position: relative;
+    bottom: 100px;
+  }
+  .tituloNaranjaPC {
+    margin-left: 65px;
+  }
+  .fondo {
+    background-image: url("../../public/imagenFondopc.jpeg");
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 80vw;
+  }
+  .tamaniopc {
+    width: 92px;
+    height: 82px;
+  }
+  .negrita {
+    font-weight: 600;
+    color: white;
+  }
+  .parrafoPc {
+    font-family: "Poppins";
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 590px;
+    margin: 2rem auto;
+    line-height: 1.6;
+  }
+  .titulo5pc {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 62px;
+    color: black;
+    margin-left: 180px;
+  }
+  .parrafo6pc {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+  }
+
+  .titulo7pc {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 36px;
+  }
+
+  .fondo2 {
+    background-color: #fce2d7;
+    position: absolute;
+    top: 3250px;
+    left: 0%;
+    transform: translateX(30%);
+    width: 65%;
+  }
+  .fondo2 .espacioPCFondo2 {
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+  .footer {
+    background-color: #2f5c5c;
+    color: white;
+    padding: 2rem 0;
+    margin-top: 300px;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 75px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: white;
+  }
+
+  .logo-icon {
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    border-radius: 50%;
+  }
+
+  .logo-text {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .nav-link:hover {
+    color: #cccccc;
+  }
+
+  .social-icons {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    margin-left: 75px;
+  }
+
+  .social-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .social-link:hover {
+    color: #cccccc;
+  }
+
+  .social-link i {
+    font-size: 1.25rem;
+  }
+  .footer-nav {
+    display: flex;
+    gap: 2rem;
+    margin-right: 75px;
+  }
+  .titulo2pc {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 50;
+    line-height: 62px;
+  }
+  .parrafo3pc {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+    margin-left: 50px;
+  }
+  .imghojapc {
+    margin-right: 120px;
+  }
+}
+.navbar {
+  padding: 1rem 0;
+}
+
+.nav-link {
+  color: #000;
+  font-weight: 400;
+}
+
+.nav-link:hover {
+  color: #333;
+}
+.footerlink {
+  color: white;
+}

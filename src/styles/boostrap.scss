@@ -1,0 +1,90 @@
+// Variables personalizadas
+$primary-button-color: #285e67;
+$primary-button-color2: transparent;
+$btn-primary-border-trasparent: white;
+$btn-primary-bg: $primary-button-color;
+$btn-primary-border-color: $primary-button-color;
+// Hover y active personalizados
+$btn-primary-hover-bg: darken($primary-button-color, 10%);
+$btn-primary-hover-border: darken($primary-button-color, 10%);
+@import "bootstrap/scss/bootstrap";
+// Estilos generales
+@media (max-width: 767px) {
+  .navbar {
+    padding: 1rem;
+    background-color: white !important;
+  }
+  .navbar-brand {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .bi-circle-fill {
+    font-size: 1.25rem;
+    color: #666;
+  }
+  // Botones personalizados
+  .container .btn.btn-primary {
+    background-color: $primary-button-color;
+    border-color: $primary-button-color;
+  }
+  .container .btn.btn-primary.transparent {
+    background-color: $primary-button-color2;
+    border-color: $btn-primary-border-trasparent;
+  }
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 1rem;
+    background-color: white !important;
+  }
+  .navbar-brand {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .bi-circle-fill {
+    font-size: 1.25rem;
+    color: #666;
+  }
+  // Botones personalizados
+  .container .btn.btn-primary {
+    background-color: $primary-button-color;
+    border-color: $primary-button-color;
+  }
+  .container .btn.btn-primary.transparent {
+    background-color: $primary-button-color2;
+    border-color: $btn-primary-border-trasparent;
+  }
+}
+
+.navbar {
+  padding: 1rem;
+  background-color: white !important;
+}
+
+.navbar-brand {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.bi-circle-fill {
+  font-size: 1.25rem;
+  color: #666;
+}
+
+// Botones personalizados
+.container .btn.btn-primary {
+  background-color: $primary-button-color;
+  border-color: $primary-button-color;
+}
+
+.container .btn.btn-primary.transparent {
+  background-color: $primary-button-color2;
+  border-color: $btn-primary-border-trasparent;
+}
